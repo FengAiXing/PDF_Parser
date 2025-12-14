@@ -19,28 +19,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-# 配置参数
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\服务文件\一--阳泉煤矿签章版投标文件4.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\装备制造大学司钻（井下）作业实操考核系统.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\服务文件\阳泉燕龛块炭加工招标文件.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\麦捷煤业智能通风技术规格书.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\招标资料要求.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\单页pdf\阳泉市南庄煤炭集团有限责任公司西上庄煤矿高压柴油发电机组采购招标文件\阳泉市南庄煤炭集团有限责任公司西上庄煤矿高压柴油发电机组采购招标文件_13.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\跨页表格测试\PDF合并1-2.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\跨页表格测试\PDF合并10-16.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\跨页表格测试\PDF合并36-39.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\跨页表格测试\PDF合并4142.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\跨页表格测试\PDF合并54-58.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\跨页表格测试\PDF合并10-16.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\跨页表格测试\PDF合并69-75.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\阳泉市南庄煤炭集团有限责任公司西上庄煤矿高压柴油发电机组采购招标文件.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\货物项目技术资料要求高压柴油发电机组 - 新.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\中央进风大巷矸石带式输送机电控设备技术规格书202.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\单页pdf\阳泉市南庄煤炭集团有限责任公司西上庄煤矿高压柴油发电机组采购招标文件\阳泉市南庄煤炭集团有限责任公司西上庄煤矿高压柴油发电机组采购招标文件_38.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\异常文件\[招标文件-后审]2024年清徐县老旧小区改造项目施工 - 004 - 招标文件.pdf"
-PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\所有招标文件\1沁水县鑫海能源有限责任公司郑庄矿井食堂工程招标文件.pdf"
-# PDF_PATH = r"C:\Users\gf133\Desktop\变量提取文件\灵石县第七中学校新建工程一批室内装修材料采购项目——招标\灵石县第七中学校新建工程一批室内装修材料采购项目——招标\灵石县第七中学校新建工程一批室内装修材料采购项目——招标.pdf"
-
+PDF_PATH = r"your_file.pdf"  # 请替换为实际的PDF文件路径
 OUTPUT_DIR = "output_complete"
 MAX_WORKERS = 100
 
